@@ -6,10 +6,13 @@ namespace RectangleArea
     {
         static void Main(string[] args)
         {
-            double width = double.Parse(Console.ReadLine());
-            double height = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("{0:F2}", width * heigth);
+            //input rectangle's width
+            double width = double.Parse(Console.ReadLine());
+            //input recangle's height
+            double height = double.Parse(Console.ReadLine());
+            //Calculate area and print it
+            Console.WriteLine("{0:F2}", width * heigth); 
         }
     }
 }
