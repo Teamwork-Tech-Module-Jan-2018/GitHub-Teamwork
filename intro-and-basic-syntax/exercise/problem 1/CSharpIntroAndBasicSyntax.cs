@@ -10,13 +10,13 @@ namespace CSharpIntroAndBasicSyntax
             string output = String.Empty;
             while (buffer <= 4)
             {
-                string integers = Console.ReadLine();
-                if (integers.Length < 4)
+                string strInteger = Console.ReadLine();
+                if (strInteger.Length < 4)
                 {
-                    integers = FormatIntegers(integers);
+                    strInteger = FormatIntegers(strInteger);
                 }
 
-                output += integers + " ";
+                output += strInteger + " ";
                 buffer++;
             }
             

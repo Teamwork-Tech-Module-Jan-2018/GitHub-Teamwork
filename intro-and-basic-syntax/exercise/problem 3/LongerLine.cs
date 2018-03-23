@@ -16,9 +16,9 @@ namespace p09
             double y4 = double.Parse(Console.ReadLine());
 
 
-            double longestline = FindLongestLine(x1, y1, x2, y2, x3, y3, x4, y4);
+            double longestLine = FindLongestLine(x1, y1, x2, y2, x3, y3, x4, y4);
 
-            if (longestline == 1)
+            if (longestLine == 1)
             {
                 string line = FindClosestPoint(x1, y1, x2, y2);
 
@@ -33,9 +33,9 @@ namespace p09
             }
             else
             {
-                string line = FindClosestPoint(x3, y3, x4, y4);
+                string secondLine = FindClosestPoint(x3, y3, x4, y4);
 
-                if (line == "first")
+                if (secondLine == "first")
                 {
                     Console.WriteLine($"({x3}, {y3})({x4}, {y4})");
                 }
