@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFIRMED from gomelGA
+using System;
 
 namespace ConsoleApp1
 {
