@@ -1,5 +1,4 @@
-### Problem 1.              
-Beverage Labels
+### Beverage Labels
 
 Write a program, which readsa food product **name**, **volume**, **energy contentper
 100ml**and **sugar contentper 100ml**.
