@@ -15,9 +15,9 @@ namespace ConsoleApp1
             int maxEnergy = int.Parse(Console.ReadLine());
             //Create new strings with specified parameters
             string healthBarCurrentHealth = new string('|', currentHealth);
-            string healthBarLessenedHealth = new string('.', maxHealth - currentHealth);
+            string healthBarMissingHealth = new string('.', maxHealth - currentHealth);
             string energyBarCurrentEnergy = new string('|', currentEnergy);
-            string energyBarLessenedEnergy = new string('.', maxEnergy - currentEnergy);
+            string energyBarMissingEnergy = new string('.', maxEnergy - currentEnergy);
 
 
             //Print the output on the console
@@ -25,12 +25,12 @@ namespace ConsoleApp1
 
             //health bar
             Console.Write("Health: " + "|");
-            Console.Write($"{healthBarCurrentHealth}{healthBarLessenedHealth}");
+            Console.Write($"{healthBarCurrentHealth}{healthBarMissingHealth}");
             Console.WriteLine("|");
 
             //energy bar
             Console.Write("Energy: " + "|");
-            Console.Write($"{energyBarCurrentEnergy}{energyBarLessenedEnergy}");
+            Console.Write($"{energyBarCurrentEnergy}{energyBarMissingEnergy}");
             Console.WriteLine("|");
         }
     }
